@@ -8,8 +8,7 @@ function setup(){
   HEIGHT = windowHeight;
   allGUI = new GUI();
   
-  var canvas = createCanvas(WIDTH, HEIGHT);
-  canvas.parent("display");
+  createCanvas(WIDTH, HEIGHT);
   
   noStroke();
   textAlign(CENTER, CENTER);
